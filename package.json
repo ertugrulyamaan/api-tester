@@ -1,0 +1,22 @@
+{
+  "name": "api-tester",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3030",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.9.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "nuxt": "^3.10.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.1"
+  }
+}
