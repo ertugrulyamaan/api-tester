@@ -1,75 +1,114 @@
-# Nuxt Minimal Starter
+# API Tester
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern web application built with Nuxt 3 for testing and debugging APIs. This tool provides a user-friendly interface to make API requests, inspect responses, and manage API testing workflows.
 
-## Setup
+## 🚀 Features
 
-Make sure to install dependencies:
+- Modern UI built with Nuxt 3 and Tailwind CSS
+- Vue 3 composition API support
+- Built-in API request management
+- Real-time response visualization
+- Fully typed TypeScript support
 
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (v18 or higher recommended)
+- npm, yarn, pnpm, or bun package manager
+
+## 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-# npm
+git clone <your-repo-url>
+cd api-tester
+```
+
+2. Install dependencies:
+```bash
+# Using npm
 npm install
 
-# pnpm
+# Using pnpm
 pnpm install
 
-# yarn
+# Using yarn
 yarn install
 
-# bun
+# Using bun
 bun install
 ```
 
-## Development Server
+## 🚀 Development
 
-Start the development server on `http://localhost:3000`:
+Start the development server:
 
 ```bash
-# npm
+# Using npm
 npm run dev
 
-# pnpm
+# Using pnpm
 pnpm dev
 
-# yarn
+# Using yarn
 yarn dev
 
-# bun
+# Using bun
 bun run dev
 ```
 
-## Production
+The application will be available at `http://localhost:3030`.
 
-Build the application for production:
+## 🏗️ Building for Production
+
+Build the application:
 
 ```bash
-# npm
+# Using npm
 npm run build
 
-# pnpm
+# Using pnpm
 pnpm build
 
-# yarn
+# Using yarn
 yarn build
 
-# bun
+# Using bun
 bun run build
 ```
 
-Locally preview production build:
+Preview the production build:
 
 ```bash
-# npm
+# Using npm
 npm run preview
 
-# pnpm
+# Using pnpm
 pnpm preview
 
-# yarn
+# Using yarn
 yarn preview
 
-# bun
+# Using bun
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 🛠️ Tech Stack
+
+- [Nuxt 3](https://nuxt.com/) - The Vue.js Framework
+- [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [VueUse](https://vueuse.org/) - Collection of Vue Composition Utilities
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome! Feel free to check the [issues page](https://github.com/ertugrulyamaan/api-tester).
+
+## 📫 Contact
+
+If you have any questions or feedback, please reach out to us:
+- GitHub Issues: [Create an issue](https://github.com/ertugrulyamaan/api-tester/issues)
